@@ -133,3 +133,5 @@ nav:
       - Who Uses Clojure: introduction/who-uses-clojure.md
       - Contributing: introduction/contributing.md
       - Writing Tips: introduction/writing-tips.md
+  - Clojure REPL:
+      - clojure-repl/index.md
