@@ -15,5 +15,6 @@
 - intro: standard practicalli book pages (contribute, writing-tips)
 - dev: readme describing book, CI status links and dev workflow
 - mkdocs: standard Practicalli book assets (images, stylesheet)
+- mkdocs: 404 and announcement theme overrides
 
 ### Changed
