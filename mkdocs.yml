@@ -107,7 +107,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property:
+    property: G-CNB2J6KFDE
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jr0cket/
