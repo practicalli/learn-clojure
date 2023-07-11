@@ -11,6 +11,9 @@
 - mkdocs: git ignore patterns for mkdocs
 - mkdocs: add Google Analytics tag (new property created in Practicalli Websites group)
 - mkdocs: instruct GitHub to skip jekyll post processing of gh-pages content
+- intro: book introduction, clojure syntax in 15 mins, concepts
+- intro: standard practicalli book pages (contribute, writing-tips)
+- dev: readme describing book, CI status links and dev workflow
 
 ### Changed
 
