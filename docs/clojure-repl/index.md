@@ -17,7 +17,9 @@ Use a [:fontawesome-solid-book-open: terminal UI REPL](#terminal-ui-repl) as a q
 
 Rebel Readline provides a rich REPL experience, providing syntax highlighting, function signatures and documentation.
 
-Start Rebel Readline REPL using the `:repl/rebel` alias provided by Practicalli Clojure CLI Config
+The REPL can be used with or without a Clojure project.
+
+Start Rebel Readline REPL using the `:repl/rebel` alias provided by [:fontawesome-solid-book-open: Practicalli Clojure CLI Config](https://practical.li/clojure/clojure-cli/practicalli-config/)
 
 ```shell
 clojure -M:repl/rebel
