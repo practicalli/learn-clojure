@@ -1,6 +1,6 @@
 # Clojure REPL
 
-[:fontawesome-solid-book-open: Install Clojure CLI and Practicalli Clojure CLI Config](https://practical.li/clojure/install/) for a comprehensive set of developmet tools.
+[:fontawesome-solid-book-open: Install Clojure CLI and Practicalli Clojure CLI Config](https://practical.li/clojure/install/){target=_blank} for a comprehensive set of developmet tools.
 
 Use a [:fontawesome-solid-book-open: terminal UI REPL](#terminal-ui-repl) as a quick way to get started, or set up a preferred [:fontawesome-solid-book-open: Clojure editor](#clojure-editors).
 
