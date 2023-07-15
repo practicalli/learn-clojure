@@ -7,6 +7,11 @@ Use a [:fontawesome-solid-book-open: terminal UI REPL](#terminal-ui-repl) as a q
 ??? HINT "Editor Connected REPL"
     An [:fontawesome-solid-book-open: Editor connected REPL](https://practical.li/clojure/clojure-editors/) is recommended once working with Clojure projects
 
+!!! HINT "Create a Clojure project from a template"
+    `:project/create` alias from [:fontawesome-solid-book-open: Practicalli Clojure CLI Config](https://practical.li/clojure/clojure-cli/practicalli-config/) will create a Clojure project structure
+     ```clojure
+     clojure -T:project/create :name github-name/project-name
+     ```
 
 ## Terminal UI REPL
 
