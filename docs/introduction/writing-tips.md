@@ -34,14 +34,18 @@ Or specify a different class
 Add an icon to the button
 
 [:fontawesome-brands-github: Practicalli Issues](http://practical.li/blog){ .md-button .md-button-primary }
-[:octicons-heart-fill-24: Practicalli Blog](http://practical.li/blog){ .md-button .md-button-primary }
+[:fontawesome-solid-book-open: Practicalli Books and Blogs](http://practical.li/blog){ .md-button .md-button-primary }
+[:simple-clojure: Clojure.org](http://clojure.org/){ .md-button .md-button-primary }
+
+
 
 ```markdown
 [:fontawesome-brands-github: Practicalli Issues](http://practical.li/blog){ .md-button .md-button-primary }
-[:octicons-heart-fill-24: Practicalli Blog](http://practical.li/blog){ .md-button .md-button-primary }
+[:fontawesome-solid-book-open: Practicalli Books and Blogs](http://practical.li/blog){ .md-button .md-button-primary }
+[:simple-clojure: Clojure.org](http://clojure.org/){ .md-button .md-button-primary }
 ```
 
-[Search all supported icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/){target=_blank .md-button}
+[:globe_with_meridians: Search all supported icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/){target=_blank .md-button}
 
 ## YouTube video
 
