@@ -17,5 +17,6 @@
 - mkdocs: standard Practicalli book assets (images, stylesheet)
 - mkdocs: 404 and announcement theme overrides
 - repl: using clojure repl in terminal or editor
+- mkdocs: clojure idiom custom admonition
 
 ### Changed
