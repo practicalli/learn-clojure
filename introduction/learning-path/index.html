@@ -20,25 +20,27 @@
         <meta name="author" content="Practicalli">
       
       
-        <link rel="canonical" href="https://practical.li/learn-clojure/clojure-repl/">
+        <link rel="canonical" href="https://practical.li/learn-clojure/introduction/learning-path/">
       
       
-        <link rel="prev" href="../introduction/writing-tips/">
+        <link rel="prev" href="../..">
       
       
-      <link rel="icon" href="../assets/favicon.svg">
+        <link rel="next" href="../clojure-in-15-minutes/">
+      
+      <link rel="icon" href="../../assets/favicon.svg">
       <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
     
     
       
-        <title>Clojure REPL - Practicalli Learn Clojure</title>
+        <title>Learning Path - Practicalli Learn Clojure</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -54,9 +56,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -77,11 +79,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Clojure REPL - Practicalli Learn Clojure" >
+        <meta  property="og:title"  content="Learning Path - Practicalli Learn Clojure" >
       
         <meta  property="og:description"  content="Practical guide to learning the Clojure programming language and Clojure REPL development workflow" >
       
-        <meta  property="og:image"  content="https://practical.li/learn-clojure/assets/images/social/clojure-repl/index.png" >
+        <meta  property="og:image"  content="https://practical.li/learn-clojure/assets/images/social/introduction/learning-path.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -89,19 +91,19 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://practical.li/learn-clojure/clojure-repl/" >
+        <meta  property="og:url"  content="https://practical.li/learn-clojure/introduction/learning-path/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Clojure REPL - Practicalli Learn Clojure" >
+        <meta  name="twitter:title"  content="Learning Path - Practicalli Learn Clojure" >
       
         <meta  name="twitter:description"  content="Practical guide to learning the Clojure programming language and Clojure REPL development workflow" >
       
-        <meta  name="twitter:image"  content="https://practical.li/learn-clojure/assets/images/social/clojure-repl/index.png" >
+        <meta  name="twitter:image"  content="https://practical.li/learn-clojure/assets/images/social/introduction/learning-path.png" >
       
     
     
-   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -112,7 +114,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -134,7 +136,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#clojure-repl" class="md-skip">
+        <a href="#clojure-learning-path" class="md-skip">
           Skip to content
         </a>
       
@@ -168,9 +170,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Practicalli Learn Clojure" class="md-header__button md-logo" aria-label="Practicalli Learn Clojure" data-md-component="logo">
+    <a href="../.." title="Practicalli Learn Clojure" class="md-header__button md-logo" aria-label="Practicalli Learn Clojure" data-md-component="logo">
       
-  <img src="../assets/images/practicalli-logo.png" alt="logo">
+  <img src="../../assets/images/practicalli-logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -186,7 +188,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Clojure REPL
+              Learning Path
             
           </span>
         </div>
@@ -291,9 +293,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Practicalli Learn Clojure" class="md-nav__button md-logo" aria-label="Practicalli Learn Clojure" data-md-component="logo">
+    <a href="../.." title="Practicalli Learn Clojure" class="md-nav__button md-logo" aria-label="Practicalli Learn Clojure" data-md-component="logo">
       
-  <img src="../assets/images/practicalli-logo.png" alt="logo">
+  <img src="../../assets/images/practicalli-logo.png" alt="logo">
 
     </a>
     Practicalli Learn Clojure
@@ -319,14 +321,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
       
       
         
@@ -353,7 +357,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="..">Introduction</a>
+          <a href="../..">Introduction</a>
           
             <label for="__nav_1">
               <span class="md-nav__icon md-icon"></span>
@@ -361,7 +365,7 @@
           
         </div>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           Introduction
@@ -374,11 +378,94 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../introduction/learning-path/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Learning Path
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Learning Path
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#experience-the-clojure-syntax" class="md-nav__link">
+    Experience the Clojure syntax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clojure-concepts" class="md-nav__link">
+    Clojure Concepts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clojure-repl" class="md-nav__link">
+    Clojure REPL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-practice-practice" class="md-nav__link">
+    Practice Practice Practice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-help" class="md-nav__link">
+    Community Help
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-a-frame-of-reference" class="md-nav__link">
+    Building a frame of reference
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starter-projects" class="md-nav__link">
+    Starter Projects
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -390,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/clojure-in-15-minutes/" class="md-nav__link">
+      <a href="../clojure-in-15-minutes/" class="md-nav__link">
         Clojure in Fifteen Mins
       </a>
     </li>
@@ -404,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/repl-workflow/" class="md-nav__link">
+      <a href="../repl-workflow/" class="md-nav__link">
         REPL Workflow
       </a>
     </li>
@@ -440,7 +527,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../introduction/concepts/">Concepts</a>
+          <a href="../concepts/">Concepts</a>
           
             <label for="__nav_1_5">
               <span class="md-nav__icon md-icon"></span>
@@ -463,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/concepts/what-is-functional-programming/" class="md-nav__link">
+      <a href="../concepts/what-is-functional-programming/" class="md-nav__link">
         Functional vs Imperative
       </a>
     </li>
@@ -477,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/concepts/from-the-author.md" class="md-nav__link">
+      <a href="../concepts/from-the-author.md" class="md-nav__link">
         From The Author
       </a>
     </li>
@@ -498,7 +585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/who-uses-clojure/" class="md-nav__link">
+      <a href="../who-uses-clojure/" class="md-nav__link">
         Who Uses Clojure
       </a>
     </li>
@@ -512,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/contributing/" class="md-nav__link">
+      <a href="../contributing/" class="md-nav__link">
         Contributing
       </a>
     </li>
@@ -526,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction/writing-tips/" class="md-nav__link">
+      <a href="../writing-tips/" class="md-nav__link">
         Writing Tips
       </a>
     </li>
@@ -546,16 +633,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
       
       
         
@@ -567,12 +652,12 @@
       
         
         
-        <div class="md-nav__link md-nav__link--index md-nav__link--active">
-          <a href="./">Clojure REPL</a>
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../clojure-repl/">Clojure REPL</a>
           
         </div>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Clojure REPL
@@ -614,15 +699,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#terminal-ui-repl" class="md-nav__link">
-    Terminal UI REPL
+  <a href="#experience-the-clojure-syntax" class="md-nav__link">
+    Experience the Clojure syntax
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clojure-editors" class="md-nav__link">
-    Clojure Editors
+  <a href="#clojure-concepts" class="md-nav__link">
+    Clojure Concepts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clojure-repl" class="md-nav__link">
+    Clojure REPL
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-practice-practice" class="md-nav__link">
+    Practice Practice Practice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-help" class="md-nav__link">
+    Community Help
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-a-frame-of-reference" class="md-nav__link">
+    Building a frame of reference
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starter-projects" class="md-nav__link">
+    Starter Projects
   </a>
   
 </li>
@@ -642,7 +762,7 @@
                   
 
   
-    <a href="https://github.com/practicalli/learn-clojure/edit/main/docs/clojure-repl/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/learn-clojure/edit/main/docs/introduction/learning-path.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -651,59 +771,96 @@
     
       
     
-    <a href="https://github.com/practicalli/learn-clojure/raw/main/docs/clojure-repl/index.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/practicalli/learn-clojure/raw/main/docs/introduction/learning-path.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="clojure-repl">Clojure REPL<a class="headerlink" href="#clojure-repl" title="Permanent link">λ︎</a></h1>
-<p><a href="https://practical.li/clojure/install/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Install Clojure CLI and Practicalli Clojure CLI Config</a> for a comprehensive set of developmet tools.</p>
-<p>Use a <a href="#terminal-ui-repl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> terminal UI REPL</a> as a quick way to get started, or set up a preferred <a href="#clojure-editors"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure editor</a>.</p>
-<details class="hint">
-<summary>Editor Connected REPL</summary>
-<p>An <a href="https://practical.li/clojure/clojure-editors/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Editor connected REPL</a> is recommended once working with Clojure projects</p>
-</details>
-<div class="admonition hint">
-<p class="admonition-title">Create a Clojure project from a template</p>
-<p><code>:project/create</code> alias from <a href="https://practical.li/clojure/clojure-cli/practicalli-config/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli Clojure CLI Config</a> will create a Clojure project structure
- <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">clojure</span><span class="w"> </span><span class="nv">-T</span><span class="ss">:project/create</span><span class="w"> </span><span class="ss">:name</span><span class="w"> </span><span class="nv">github-name/project-name</span>
-</code></pre></div></p>
-</div>
-<h2 id="terminal-ui-repl">Terminal UI REPL<a class="headerlink" href="#terminal-ui-repl" title="Permanent link">λ︎</a></h2>
-<p>Rebel Readline provides a rich REPL experience, providing syntax highlighting, function signatures and documentation.</p>
-<p>The REPL can be used with or without a Clojure project.</p>
-<p>Start Rebel Readline REPL using the <code>:repl/rebel</code> alias provided by <a href="https://practical.li/clojure/clojure-cli/practicalli-config/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli Clojure CLI Config</a></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>clojure<span class="w"> </span>-M:repl/rebel
-</code></pre></div>
-<p><a class="md-button" href="https://practical.li/clojure/clojure-cli/repl/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Rebel REPL Terminal UI</a></p>
-<p style="text-align:center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U19TWMsg0s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-<h2 id="clojure-editors">Clojure Editors<a class="headerlink" href="#clojure-editors" title="Permanent link">λ︎</a></h2>
-<p>Clojure editors are the preferred way to write code and evaluating source code.  Working with source files is more effective than entering all expressions directly at a REPL prompt.</p>
-<p>Use an editor to <strong>jack-in</strong> (start) a Clojure REPL process and connect to the running REPL.</p>
-<p>Or <strong>connect</strong> to a running REPL process, e.g. Rebel Terminal UI (over a network repl, nREPL).</p>
-<p>Use an editor that is most familiar or comfortable to minimise the learning curve.</p>
-<p>Clojure editors should provide</p>
+<h1 id="clojure-learning-path">Clojure Learning Path<a class="headerlink" href="#clojure-learning-path" title="Permanent link">λ︎</a></h1>
+<p>Practicalli recommended approach for learning Clojure, which can be done in parallel.</p>
 <ul>
-<li>running / connecting to a REPL process</li>
-<li>evaluation results inline (instant feedback on code behaviour)</li>
-<li>syntax highlighting, including parens matching</li>
-<li>Structural editing, balancing parens (paredit / parinfer)</li>
-<li>data inspector to navigate large &amp; nested data, or connection to external <a href="https://practical.li/clojure/data-inspector/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> data inpector tools</a></li>
+<li>Review the fundamental syntax of Clojure (its small and consistent)</li>
+<li>Start discovering clojure concepts (give context to practical experience)</li>
+<li>Become comfortable evaluating code in the Clojure REPL</li>
+<li>Practice Clojure by solving challenges </li>
+<li>Start discovering the Clojure Standard Library (hundreds of functions available)</li>
+<li>Connect to the Clojure community to support learning</li>
 </ul>
-<p><a class="md-button" href="https://practical.li/clojure/clojure-editors/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure aware editors</a></p>
-<p><a class="glightbox" href="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/clojure-repl-driven-development-clojure-aware-editor.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt=":fontawesome-solid-book-open: Clojure Editor connected REPL" loading="lazy" src="https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/clojure-repl-driven-development-clojure-aware-editor.png" /></a></p>
+<h2 id="experience-the-clojure-syntax">Experience the Clojure syntax<a class="headerlink" href="#experience-the-clojure-syntax" title="Permanent link">λ︎</a></h2>
+<p>Take a quick look at the Syntax of Clojure.  The syntax is very small, so this will take about 15 minutes to 1 hour (dependent on your own experiences with coding).  Don't try to remember all the syntax, it will come through practise.</p>
+<ul>
+<li>eg. <a href="../clojure-in-15-minutes/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure in 15 minutes</a></li>
+</ul>
+<h2 id="clojure-concepts">Clojure Concepts<a class="headerlink" href="#clojure-concepts" title="Permanent link">λ︎</a></h2>
+<p>Gain an appreciation that a software system should strive for a simple design is a crucial step to truly understanding Clojure.  </p>
+<p>Spend an hour watching the author of the Clojure Language, <a href="https://www.infoq.com/presentations/Simple-Made-Easy"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Rich Hickey, talk about Simple made Easy</a> or read the (<a href="https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> transcript of talk</a>) to emerse in the foundational concepts of Clojure.</p>
+<p>Review the <a href="concepts/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Clojure Big Ideas</a> presented by Stuart Halloway and further <a class="mkdocs-button" href="../concepts/clojure-from-the-author/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> video presentations by Rich Hickey</a>.</p>
+<p><a class="mkdocs-button" href="../concepts/clojure-from-the-author/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Rich Hickey video lecture series</a> </p>
+<h2 id="clojure-repl">Clojure REPL<a class="headerlink" href="#clojure-repl" title="Permanent link">λ︎</a></h2>
+<p>Learn the basics of <a href="/learn-clojure/clojure-repl/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> interacting with a REPL</a>, e.g. using Rebel Terminal UI REPL.</p>
+<p>Establish an effective set of Clojure development tools and evaluate Clojure expressions from your preferred editor, connected to a Clojure REPL.  </p>
+<p>Practicalli provides editor install and usage guides for </p>
+<ul>
+<li><a href="https://practical.li/spacemacs/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Emacs using Spacemacs community configuration</a> </li>
+<li><a href="https://practical.li/neovim/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Neovim using AstroNvim community configuration</a> </li>
+</ul>
+<p><a class="md-button" href="https://practical.li/clojure/clojure-editors/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli overview of Clojure Aware Editors</a> </p>
+<div class="admonition hint">
+<p class="admonition-title">Web based Clojure environments</p>
+<p><a href="/learn-clojure/code-challenges/exercism/">Exercism</a> includes a web-based editor for solving its challenges (and challenges can be downloaded locally).</p>
+<p><a href="https://repl.it"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> repl.it</a> provides web based repl you can share / fork via a GitHub account.</p>
+</div>
+<h2 id="practice-practice-practice">Practice Practice Practice<a class="headerlink" href="#practice-practice-practice" title="Permanent link">λ︎</a></h2>
+<p>Practice Clojure.  Write lots of small and relatively simple examples in Clojure and experiment with the code in the REPL and try break things.  This will start helping you learn the <a href="https://clojure.github.io/clojure/">Clojure API</a></p>
+<p>You should become comfortable in your understanding of:</p>
+<ul>
+<li>basic values (strings, numbers, etc) and persistent collections (list, vector, map, set)</li>
+<li>binding names to values and their scope  (def, defn, let)</li>
+<li>calling functions, defining functions, arity options for functions</li>
+<li>Higher order functions and basics of functional composition (map, reduce, filter, etc)</li>
+<li>Designing with data, Extensible Data Notation (EDN), data manipulation</li>
+</ul>
+<p>Activities to help practice Clojure include:</p>
+<ul>
+<li><a href="/learn-clojure/code-challenges/4ever-clojure/">4ever Clojure</a> - aim to complete the first 50 exercises and experiment with various functions from the Clojure standard library (<code>clojure.core</code>).</li>
+<li><a href="/learn-clojure/code-challenges/exercism">Exercism Clojure Track</a></li>
+<li><a href="/learn-clojure/code-challenges/code-kata">Code Kata</a> repeat exercises taking different design decisions </li>
+<li><a href="/learn-clojure/small-projects">Small Projects</a></li>
+</ul>
+<h2 id="community-help">Community Help<a class="headerlink" href="#community-help" title="Permanent link">λ︎</a></h2>
+<p>There are many ways to <a href="https://practical.li/blog/posts/cloure-community-getting-help/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.09 14.696a6.574 6.574 0 0 0-3.381 3.399l4.27.883-.886-4.282h-.003zM2.475 8.317 0 5.85A11.26 11.26 0 0 1 5.823 0h.006l2.469 2.463a11.224 11.224 0 0 1 4.463-.921C18.967 1.542 24 6.569 24 12.771 24 18.973 18.967 24 12.761 24 6.551 24 1.52 18.976 1.52 12.771c0-1.591.355-3.081.952-4.451l9.143 9.114a11.267 11.267 0 0 1 5.823-5.85l-9.135-9.12h-.008a11.285 11.285 0 0 0-5.823 5.85l.003.003z"/></svg></span> get help from the Clojure community</a></p>
+<p>Often starting to ask questions of the community is an effective way of solving the problem yourself.  Asking specific questions helps the community help you.  Posting the specifics of the solution helps the community grow.</p>
+<div class="admonition hint">
+<p class="admonition-title">In-person Code Dojo events</p>
+<p>A local Clojure community may run <a href="https://londonclojurians.org/code-dojo/">Code Dojo events</a> which are an excellent way to learn and practice with others. e.g. <a href="https://meetup.com/london-clojurians">London Clojurians</a></p>
+<p>The Clojure dojo is a collaborative way to learn Clojure/ClojureScript through practice. The aim is to learn a little more than before you started.</p>
+<p>Collectively decide on a challenge to complete and split into small groups (2-4 people).  Discuss and start to solve the challenge by coding the next simplest thing possible.  Spend around 90 minutes in groups and come back together to show what was learned.  The dojo is about sharing lessons learned rather than completing a challenge.</p>
+</div>
+<h2 id="building-a-frame-of-reference">Building a frame of reference<a class="headerlink" href="#building-a-frame-of-reference" title="Permanent link">λ︎</a></h2>
+<p>Find an introductory book that you like which provides lots of example code to help you feel more comfortable with the syntax and more importantly the major concepts of functional programming with Clojure.  Type in the exercises as you read and don't be afraid to play around with code examples</p>
+<p><a class="md-button" href="https://clojure.org/community/books" target="_blank">Clojure.org Book page</a> has a comprehensive list of commercially available books </p>
+<p>Freely available books Practicalli recommends:</p>
+<p><a class="md-button" href="/learn-clojure/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli Learn Clojure</a></p>
+<p><a class="md-button" href="https://github.com/clojure-cookbook/clojure-cookbook" target="_blank"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Clojure Cookbook</a></p>
+<p><a class="md-button" href="https://www.braveclojure.com/clojure-for-the-brave-and-true/" target="_blank"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Clojure for the Brave and the True</a></p>
+<p>Commercial books Practicalli recommends:</p>
+<p><a class="md-button" href="https://pragprog.com/titles/roclojure/getting-clojure/" target="_blank"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Getting Clojure - Russ Olsen</a></p>
+<p><a class="md-button" href="https://www.manning.com/books/clojure-the-essential-reference" target="_blank"><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f310.svg" title=":globe_with_meridians:" /> Clojure Essential Reference - Renzo Borgatti</a></p>
+<h2 id="starter-projects">Starter Projects<a class="headerlink" href="#starter-projects" title="Permanent link">λ︎</a></h2>
+<p>Work on a relatively small project that is care about enough to invest time on regularly, either several hours over the weekend or a couple of hours over several days in the week.</p>
+<ul>
+<li>eg. a tool to help you at work</li>
+</ul>
+<p><a class="md-button" href="/learn-clojure/small-projects/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Practicalli Small Projects</a> </p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 15, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 29, 2023</span>
       
     
   </small>
@@ -738,7 +895,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../introduction/writing-tips/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Writing Tips" rel="prev">
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Learning Clojure" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -747,11 +904,26 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Writing Tips
+                Learning Clojure
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../clojure-in-15-minutes/" class="md-footer__link md-footer__link--next" aria-label="Next: Clojure in Fifteen Mins" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Clojure in Fifteen Mins
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
@@ -840,10 +1012,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
