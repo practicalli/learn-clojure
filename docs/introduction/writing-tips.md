@@ -114,8 +114,11 @@ Use an iframe element to include a YouTube video, wrapping in a paragraph tag wi
      Use `???+`, note the `+` character,  followed by `NOTE` and a `"title in double quotes"`
 
 ### Inline blocks
+### Custom admonitions
 
 Inline blocks of text to make a very specific callout within text
+!!! CLOJURE-IDIOM
+    Use `!!!` or `???` followed by `CLOJURE-IDIOM` and an optional "title" in double quotes
 
 !!! info inline
 
