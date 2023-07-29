@@ -147,6 +147,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 
 ## Code blocks
 
+Three backtics followed by an optional language name define the start of a code block.  Three backtic characters end the code block.
+
 Code blocks include a copy icon automatically
 
 Syntax highlighting in code blocks
@@ -158,6 +160,16 @@ Syntax highlighting in code blocks
   (map inc [1 2 3]))
 ```
 
+??? EXAMPLE "Code block with clojure language"
+    ```markdown
+        ```clojure
+        (defn my-function  ; Write a simple function
+          "With a lovely doc-string"
+          [arguments]
+          (map inc [1 2 3]))
+        ```
+    ```
+
 Give the code block a title using `title=""` after the backtics and language name
 
 ```clojure title="src/practicalli/gameboard.clj"
@@ -167,7 +179,9 @@ Give the code block a title using `title=""` after the backtics and language nam
   (map inc [1 2 3]))
 ```
 
-We all like line numbers, especially when you can set the starting line
+`linenums` adds line numbers to the code block to help refer to a specific line.  
+
+`linenums="42"` also sets the starting point of the line numbers
 
 ```clojure linenums="42" title="src/practicalli/gameboard.clj"
 (defn my-function
@@ -176,17 +190,21 @@ We all like line numbers, especially when you can set the starting line
   (map inc [1 2 3]))
 ```
 
-Add `linenums=42` to start line numbers from 42 onward
-
-```shell
-clojure linenums="42" title="src/practicalli/gameboard.clj"
-```
+??? EXAMPLE "Code block with clojure language, line numbers and title"
+    ```markdown
+        ```clojure linenums="42" title="src/practicalli/gameboard.clj"
+        (defn my-function
+          "With a lovely doc-string"
+          [arguments]
+          (map inc [1 2 3]))
+        ```
+    ```
 
 ### Annotations
 
 Annotations in a code block help to highlight important aspects.  Use the comment character for the language followed by a space and a number in brackets
 
-For example, in a shell code block, use `# (1)` where 1 is the number of the annotation
+For example, in a shell code block, use `# (1)` where 1 is the number of the annotation,  in Clojure use `; (1)`.
 
 Use a number after the code block to add the text for the annotation, e.g. `1.`. Ensure there is a space between the code block and the annotation text.
 
@@ -194,10 +212,10 @@ Use a number after the code block to add the text for the annotation, e.g. `1.`.
 ls -la $HOME/Downloads  # (1)
 ```
 
-1.  :woman_raising_hand: I'm a code annotation! I can contain `code`, __formatted text__, images, ... basically anything that can be written in Markdown.
+1.  :woman_raising_hand: I'm a code annotation! I can contain `code`, __formatted text__, images, anything which can be written in Markdown format.
 
 
-Code blocks with annotation, add `!` after the annotation number to suppress the `#` character
+`!` after the annotation number, e.g. `; (1)!`, hides the comment character in the annotation display.
 
 ```clojure
 (defn helper-function
@@ -208,6 +226,18 @@ Code blocks with annotation, add `!` after the annotation number to suppress the
 ```
 
 1.  Always include a doc-string in every function to describe the purpose of that function, identifying why it was added and what its value is.
+
+
+??? EXAMPLE "Code block with annotations"
+    ```markdown
+        ```clojure
+        (defn helper-function
+          "Doc-string with description of function purpose" ; (1)!
+          [data]
+          (merge {:fish 1} data)
+          )
+        ```
+    ```
 
 GitHub action example with multiple annotations
 
