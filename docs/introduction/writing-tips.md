@@ -113,34 +113,33 @@ Use an iframe element to include a YouTube video, wrapping in a paragraph tag wi
 ???+ NOTE "Expanded by default"
      Use `???+`, note the `+` character,  followed by `NOTE` and a `"title in double quotes"`
 
-### Inline blocks
 ### Custom admonitions
 
-Inline blocks of text to make a very specific callout within text
 !!! CLOJURE-IDIOM
     Use `!!!` or `???` followed by `CLOJURE-IDIOM` and an optional "title" in double quotes
 
-!!! info inline
+### Inline admonition
 
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
+Inline admonitions to make a specific callout within a paragraph of text
+
+!!! INFO INLINE
+    Use `!!! INFO INLINE` to create an inline admonition on the left-hand side of a paragraph of text.
+   
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-Adding something to then end of text is probably my favourite
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+Adding something to then end of text is the preffered choice by Practicalli books as it seems to avoid interupting the flow of the main text
 
 !!! info inline end
+    Use `!!! INFO INLINE END` to create an inline admonition on the right-hand side 
 
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
