@@ -18,5 +18,6 @@
 - mkdocs: 404 and announcement theme overrides
 - repl: using clojure repl in terminal or editor
 - mkdocs: clojure idiom custom admonition
+- intro: learning paths page describing aspects of journey into clojure
 
 ### Changed

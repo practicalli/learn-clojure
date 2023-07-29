@@ -124,6 +124,7 @@ extra:
 nav:
   - Introduction:
       - index.md
+      - Learning Path: introduction/learning-path.md
       - Clojure in Fifteen Mins: introduction/clojure-in-15-minutes.md
       - REPL Workflow: introduction/repl-workflow.md
       - Concepts:
