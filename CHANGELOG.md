@@ -21,3 +21,4 @@
 - intro: learning paths page describing aspects of journey into clojure
 
 ### Changed
+- ci: spell lychee & repository trufflehog linters warn only (false positives) 
