@@ -130,8 +130,9 @@ nav:
       - Concepts:
           - introduction/concepts/index.md
           - Functional vs Imperative: introduction/concepts/what-is-functional-programming.md
-          - From The Author: introduction/concepts/from-the-author.md
+          - From The Author: introduction/concepts/clojure-from-the-author.md
       - Who Uses Clojure: introduction/who-uses-clojure.md
+      - Clojure Community: introduction/clojure-community.md
       - Contributing: introduction/contributing.md
       - Writing Tips: introduction/writing-tips.md
   - Clojure REPL:
