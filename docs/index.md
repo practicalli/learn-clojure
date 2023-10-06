@@ -1,38 +1,17 @@
 # Learning Clojure
 
+Clojure is an elegant programming language for a more civilized development experience.
+
+Clojure encourages the creation of simple software systems using immutable values and a pragmatic approach to pure functional design.
+
+The aim of Learning Clojure is to cover the essentials required to start a journey into the Clojure programming language.
+
 !!! QUOTE "Patients, Practice and Time"
     Learning any programming language takes a lot of patients, practice and time to feel comfortable.
 
-A journey into Clojure should include the following aspects
+[:fontawesome-solid-book-open: Practicalli recommended Clojure Learning Path](/learn-clojure/introduction/learning-path/){.md-button} 
 
-- Clojure REPL workflow
-- Clojure editor choice and usage
-- Clojure Syntax (list as function call, prefix notation, dynamic types, data structures)
-- Clojure standard library (commonly used functions)
-- Common libraries
-
-The foundational aspects are inter-related so a slice through each of them is usually the most effective approach.
-
-[Clojure Learning Path](/learn/cloure/introduction/learning-path/){target=_blank .md-button} 
-
-
-## Practice
-
-- code challenges websites (Exercism, 4Ever Clojure)
-- small projects
-- identify meaningful projects
-
-
-## Experiment in the REPL
-
-- call functions from clojure core
-- write custom functions
-- create symbol names that represent a value
-  - a function call always returns a value
-  - a function call is therefore a value
-- Theory: homoiconicity - the same (homo) icons (syntax) is used for behaviour and data
-
-
+[Clojure Concepts](/docs/introduction/concepts/)
 
 ## Navigate the book
 
