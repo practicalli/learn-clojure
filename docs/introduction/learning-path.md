@@ -2,37 +2,31 @@
 
 Practicalli recommended approach for learning Clojure, which can be done in parallel.
 
-- Review the fundamental syntax of Clojure (its small and consistent)
-- Start discovering clojure concepts (give context to practical experience)
-- Become comfortable evaluating code in the Clojure REPL
-- Practice Clojure by solving challenges 
-- Start discovering the Clojure Standard Library (hundreds of functions available)
-- Connect to the Clojure community to support learning
-
-
-## Experience the Clojure syntax
-
-Take a quick look at the Syntax of Clojure.  The syntax is very small, so this will take about 15 minutes to 1 hour (dependent on your own experiences with coding).  Don't try to remember all the syntax, it will come through practise.
-
-- eg. [:fontawesome-solid-book-open: Clojure in 15 minutes](clojure-in-15-minutes.md)
-
-
-## Clojure Concepts
-
-Gain an appreciation that a software system should strive for a simple design is a crucial step to truly understanding Clojure.  
-
-Spend an hour watching the author of the Clojure Language, [:globe_with_meridians: Rich Hickey, talk about Simple made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) or read the ([:globe_with_meridians: transcript of talk](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md)) to emerse in the foundational concepts of Clojure.
-
-Review the [:fontawesome-solid-book-open: Clojure Big Ideas](concepts/) presented by Stuart Halloway and further [:fontawesome-solid-book-open: video presentations by Rich Hickey](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button}.
-
-[:fontawesome-solid-book-open: Rich Hickey video lecture series](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button} 
+- Become comfortable evaluating code in the [Clojure REPL](#clojure-repl)
+- Review the fundamental [syntax of Clojure](#experience-the-clojure-syntax) (its small and consistent)
+- Configure a [REPL connected Editor](#repl-connected-editor) and create projects to save experiments
+- Start discovering [clojure concepts](#clojure-concepts) (give context to practical experience)
+- [Practice Clojure](#practice-practice-practice) by solving challenges and discover more about the Clojure Standard Library (hundreds of functions available)
+- Connect to the [Clojure community](#community-help) for advice and shared experiences
 
 
 ## Clojure REPL 
 
-Learn the basics of [:fontawesome-solid-book-open: interacting with a REPL](/learn-clojure/clojure-repl/), e.g. using Rebel Terminal UI REPL.
+Practice writing and evaluating Clojure code using [:fontawesome-solid-book-open: a simple REPL prompt](/learn-clojure/clojure-repl/) that also provides help and documentation for standard Clojure functions.
 
-Establish an effective set of Clojure development tools and evaluate Clojure expressions from your preferred editor, connected to a Clojure REPL.  
+
+## Experience the Clojure syntax
+
+Take a quick look at the Syntax of Clojure.  The syntax is very small, so this will take about 15 minutes to 1 hour (dependent on your own experiences with coding).  Don't try to remember all the syntax and functions, they will come through practise.
+
+- eg. [:fontawesome-solid-book-open: Clojure in 15 minutes](clojure-in-15-minutes.md)
+
+
+## REPL Connected Editor
+
+Build on the REPL experience by connecting a Clojure aware editor to the Clojure REPL process. 
+
+A REPL connected Editor provides an effective set of Clojure development tools to evaluate Clojure expressions.   
 
 Practicalli provides editor install and usage guides for 
 
@@ -47,11 +41,24 @@ Practicalli provides editor install and usage guides for
     [:globe_with_meridians: repl.it](https://repl.it) provides web based repl you can share / fork via a GitHub account.
 
 
+## Clojure Concepts
+
+Gain an appreciation that a software system should strive for a simple design is a crucial step to truly understanding Clojure.  
+
+Spend an hour watching the author of the Clojure Language, [:globe_with_meridians: Rich Hickey, talk about Simple made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) or read the ([:globe_with_meridians: transcript of talk](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md)) to emerse in the foundational concepts of Clojure.
+
+Review the [:fontawesome-solid-book-open: Clojure Big Ideas](concepts/) presented by Stuart Halloway and further [:fontawesome-solid-book-open: video presentations by Rich Hickey](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button}.
+
+[:fontawesome-solid-book-open: Rich Hickey video lecture series](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button} 
+
+
 ## Practice Practice Practice
 
-Practice Clojure.  Write lots of small and relatively simple examples in Clojure and experiment with the code in the REPL and try break things.  This will start helping you learn the [Clojure API](https://clojure.github.io/clojure/)
+Practice Clojure.  Write lots of small and relatively simple examples in Clojure and experiment with the code in the REPL.  
 
-You should become comfortable in your understanding of:
+Regular practice helps learn and retain the many of the 700+ functions within the [Clojure Standard API](https://clojure.github.io/clojure/)
+
+Aim to become comfortable in the understanding of:
 
 - basic values (strings, numbers, etc) and persistent collections (list, vector, map, set)
 - binding names to values and their scope  (def, defn, let)
@@ -73,7 +80,9 @@ There are many ways to [:simple-livejournal: get help from the Clojure community
 
 Often starting to ask questions of the community is an effective way of solving the problem yourself.  Asking specific questions helps the community help you.  Posting the specifics of the solution helps the community grow.
 
-!!! HINT "In-person Code Dojo events"
+Clojurians Slack community is very active and the Clojurians Zulip community is specifically active around data science.
+
+??? HINT "In-person Code Dojo events"
     A local Clojure community may run [Code Dojo events](https://londonclojurians.org/code-dojo/) which are an excellent way to learn and practice with others. e.g. [London Clojurians](https://meetup.com/london-clojurians)
 
     The Clojure dojo is a collaborative way to learn Clojure/ClojureScript through practice. The aim is to learn a little more than before you started.
