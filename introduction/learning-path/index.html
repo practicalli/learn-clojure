@@ -5564,7 +5564,8 @@
 
 
 <h1 id="clojure-learning-path">Clojure Learning Path<a class="headerlink" href="#clojure-learning-path" title="Permanent link">λ︎</a></h1>
-<p>Practicalli recommended approach for learning Clojure, which can be done in parallel.</p>
+<p>Practicalli recommended approach for learning Clojure programming.</p>
+<p>A journey into Clojure should start with these foundational aspects</p>
 <ul>
 <li>Become comfortable evaluating code in the <a href="#clojure-repl">Clojure REPL</a></li>
 <li>Review the fundamental <a href="#experience-the-clojure-syntax">syntax of Clojure</a> (its small and consistent)</li>
@@ -5572,6 +5573,15 @@
 <li>Start discovering <a href="#clojure-concepts">clojure concepts</a> (give context to practical experience)</li>
 <li><a href="#practice-practice-practice">Practice Clojure</a> by solving challenges and discover more about the Clojure Standard Library (hundreds of functions available)</li>
 <li>Connect to the <a href="#community-help">Clojure community</a> for advice and shared experiences</li>
+</ul>
+<p>The foundational aspects are inter-related so a slice through each of them is usually the most effective approach.</p>
+<p>Build on that foundation by understanding the design approach to effectively create solutions in Clojure</p>
+<ul>
+<li>Designing for simplicity</li>
+<li>Appreciating Immutability</li>
+<li>Data centric design</li>
+<li>Common Clojure idioms (patterns)</li>
+<li>Common libraries</li>
 </ul>
 <h2 id="clojure-repl">Clojure REPL<a class="headerlink" href="#clojure-repl" title="Permanent link">λ︎</a></h2>
 <p>Practice writing and evaluating Clojure code using <a href="/learn-clojure/clojure-repl/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> a simple REPL prompt</a> that also provides help and documentation for standard Clojure functions.</p>
@@ -5582,7 +5592,8 @@
 </ul>
 <h2 id="repl-connected-editor">REPL Connected Editor<a class="headerlink" href="#repl-connected-editor" title="Permanent link">λ︎</a></h2>
 <p>Build on the REPL experience by connecting a Clojure aware editor to the Clojure REPL process. </p>
-<p>A REPL connected Editor provides an effective set of Clojure development tools to evaluate Clojure expressions.   </p>
+<p>A REPL connected Editor provides an effective set of Clojure development tools to evaluate Clojure expressions.</p>
+<p>Understanding common Clojure project structures (src, tests, namespaces) helps organise code effectively and consistently.</p>
 <p>Practicalli provides editor install and usage guides for </p>
 <ul>
 <li><a href="https://practical.li/spacemacs/" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> Emacs using Spacemacs community configuration</a> </li>
@@ -5618,7 +5629,7 @@
 <li><a href="/learn-clojure/small-projects">Small Projects</a></li>
 </ul>
 <h2 id="community-help">Community Help<a class="headerlink" href="#community-help" title="Permanent link">λ︎</a></h2>
-<p>There are many ways to <a href="https://practical.li/blog/posts/cloure-community-getting-help/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.09 14.696a6.574 6.574 0 0 0-3.381 3.399l4.27.883-.886-4.282h-.003zM2.475 8.317 0 5.85A11.26 11.26 0 0 1 5.823 0h.006l2.469 2.463a11.224 11.224 0 0 1 4.463-.921C18.967 1.542 24 6.569 24 12.771 24 18.973 18.967 24 12.761 24 6.551 24 1.52 18.976 1.52 12.771c0-1.591.355-3.081.952-4.451l9.143 9.114a11.267 11.267 0 0 1 5.823-5.85l-9.135-9.12h-.008a11.285 11.285 0 0 0-5.823 5.85l.003.003z"/></svg></span> get help from the Clojure community</a></p>
+<p>There are many ways to <a href="docs/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg></span> get help from the Clojure community</a></p>
 <p>Often starting to ask questions of the community is an effective way of solving the problem yourself.  Asking specific questions helps the community help you.  Posting the specifics of the solution helps the community grow.</p>
 <p>Clojurians Slack community is very active and the Clojurians Zulip community is specifically active around data science.</p>
 <details class="hint">
@@ -5649,7 +5660,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 6, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 15, 2023</span>
       
     
   </small>
