@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://practical.li/learn-clojure/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/clojure-repl/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/clojure-community/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/clojure-in-15-minutes/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/contributing/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/learning-path/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/repl-workflow/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/who-uses-clojure/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/writing-tips/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/clojure-from-the-author/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/what-is-functional-programming/</loc>
-         <lastmod>2023-10-06</lastmod>
+         <lastmod>2023-10-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
