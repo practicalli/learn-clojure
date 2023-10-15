@@ -1,6 +1,8 @@
 # Clojure Learning Path
 
-Practicalli recommended approach for learning Clojure, which can be done in parallel.
+Practicalli recommended approach for learning Clojure programming.
+
+A journey into Clojure should start with these foundational aspects
 
 - Become comfortable evaluating code in the [Clojure REPL](#clojure-repl)
 - Review the fundamental [syntax of Clojure](#experience-the-clojure-syntax) (its small and consistent)
@@ -8,6 +10,17 @@ Practicalli recommended approach for learning Clojure, which can be done in para
 - Start discovering [clojure concepts](#clojure-concepts) (give context to practical experience)
 - [Practice Clojure](#practice-practice-practice) by solving challenges and discover more about the Clojure Standard Library (hundreds of functions available)
 - Connect to the [Clojure community](#community-help) for advice and shared experiences
+
+The foundational aspects are inter-related so a slice through each of them is usually the most effective approach.
+
+Build on that foundation by understanding the design approach to effectively create solutions in Clojure
+
+- Designing for simplicity
+- Appreciating Immutability
+- Data centric design
+- Common Clojure idioms (patterns)
+- Common libraries
+
 
 
 ## Clojure REPL 
@@ -26,7 +39,9 @@ Take a quick look at the Syntax of Clojure.  The syntax is very small, so this w
 
 Build on the REPL experience by connecting a Clojure aware editor to the Clojure REPL process. 
 
-A REPL connected Editor provides an effective set of Clojure development tools to evaluate Clojure expressions.   
+A REPL connected Editor provides an effective set of Clojure development tools to evaluate Clojure expressions.
+
+Understanding common Clojure project structures (src, tests, namespaces) helps organise code effectively and consistently.
 
 Practicalli provides editor install and usage guides for 
 
@@ -76,7 +91,7 @@ Activities to help practice Clojure include:
 
 ## Community Help
 
-There are many ways to [:simple-livejournal: get help from the Clojure community](https://practical.li/blog/posts/cloure-community-getting-help/)
+There are many ways to [:fontawesome-solid-book-open: get help from the Clojure community](docs/)
 
 Often starting to ask questions of the community is an effective way of solving the problem yourself.  Asking specific questions helps the community help you.  Posting the specifics of the solution helps the community grow.
 
