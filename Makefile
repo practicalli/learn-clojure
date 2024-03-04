@@ -16,7 +16,8 @@
 HELP-DESCRIPTION-SPACING := 24
 
 # Tool Commands
-MEGALINTER_RUNNER := npx mega-linter-runner --flavor documentation --env "'MEGALINTER_CONFIG=.github/config/megalinter.yaml'" --remove-container
+MEGALINTER_RUNNER := npx mega-linter-runner --flavor documentation --env "'MEGALINTER_CONFIG=.github/config/megalinter.yaml'" --env "'VALIDATE_ALL_CODEBASE=true'"  --remove-container
+MKDOCS_SERVER := mkdocs serve --dev-addr localhost:7777
 
 # Makefile file and directory name wildcard
 EDN-FILES := $(wildcard *.edn)
@@ -41,11 +42,11 @@ lint-clean:  ## Clean MegaLinter report information
 # --- Documentation Generation  ------ #
 docs:  ## Build and run mkdocs in local server
 	$(info --------- Mkdocs Local Server ---------)
-	mkdocs serve --dev-addr localhost:7777
+	$(MKDOCS_SERVER)
 
 docs-changed:  ## Build only changed files and run mkdocs in local server
 	$(info --------- Mkdocs Local Server ---------)
-	mkdocs serve --dirtyreload --dev-addr localhost:7777
+	$(MKDOCS_SERVER) --dirtyreload
 
 docs-build:  ## Build mkdocs
 	$(info --------- Mkdocs Local Server ---------)
@@ -60,4 +61,3 @@ help:  ## Describe available tasks in Makefile
 	sort | \
 	awk -F ':.*?## ' 'NF==2 {printf "\033[36m  %-$(HELP-DESCRIPTION-SPACING)s\033[0m %s\n", $$1, $$2}'
 # ------------------------------------ #
-

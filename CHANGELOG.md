@@ -22,3 +22,5 @@
 
 ### Changed
 - ci: spell lychee & repository trufflehog linters warn only (false positives) 
+- intro: refactor learning path order and enhance content
+- dev: standardise github workflow and mkdocs configuration

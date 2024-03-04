@@ -63,8 +63,8 @@ markdown_extensions:
   - md_in_html # Grids
   - footnotes # footnotes and abbreviations
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji ""
-      emoji_generator: !!python/name:materialx.emoji.to_svg ""
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -74,7 +74,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format ""
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.keys # keyboard keys
@@ -91,15 +91,15 @@ plugins:
   - search
   - callouts
   - glightbox # Image aligning
-  - git-revision-date-localized:
-      # Update and Creation date of each page
+  - git-revision-date-localized: # Update and Creation date of each page
       # enable_creation_date: true
       fallback_to_build_date: true
 
   # Generate Social Cards via CI only
   # in assets/images/social
   - social:
-      cards: !ENV [ MKDOCS_SOCIAL_CARDS_GENERATE, true ]
+      cards: !ENV [MKDOCS_SOCIAL_CARDS_GENERATE, true]
+
   # Redirect pages when moved or changed
   # - redirects:
   #     redirect_maps:
@@ -110,6 +110,8 @@ extra:
     provider: google
     property: G-CNB2J6KFDE
   social:
+    - icon: material/web
+      link: https://practical.li/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jr0cket/
     - icon: fontawesome/brands/slack
@@ -192,6 +194,11 @@ nav:
       # Convert to deps.edn
       - TicTacToe:
           - games/tictactoe-cli/index.md
+
+  - Clojure Design:
+      - clojure-design/index.md
+      - Idioms: clojure-design/idioms.md
+      - Naming: clojure-design/naming.md
 
   - Thinking Functionally:
       - thinking-functionally/index.md
