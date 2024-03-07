@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://practical.li/learn-clojure/introduction/first-taste-of-clojure/</loc>
+         <lastmod>2024-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://practical.li/learn-clojure/introduction/learning-path/</loc>
          <lastmod>2024-03-07</lastmod>
          <changefreq>daily</changefreq>
