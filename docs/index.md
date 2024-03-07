@@ -28,6 +28,13 @@ Use the search box to quickly find a specific topic
 - ++enter++ : follow selected result
 
 
+## Resources
+
+[:fontawesome-solid-book-open: Practicalli Clojure CLI Config - additional tools via aliases](/clojure/clojure-cli/practicalli-config/){target=_blank .md-button}
+[Clojure Aware Editors](/clojure/clojure-editors){target=_blank .md-button}
+[Practicalli YouTube channel](https://youtube.co/practicalli){target=_blank .md-button}
+
+
 ## Sponsor Practicalli
 
 [![Sponsor practicalli-johnny](https://raw.githubusercontent.com/practicalli/graphic-design/live/buttons/practicalli-github-sponsors-button.png){ align=left loading=lazy }](https://github.com/sponsors/practicalli-johnny/)
