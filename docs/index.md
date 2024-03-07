@@ -11,7 +11,7 @@ The aim of Learning Clojure is to cover the essentials required to start a journ
 
 [:fontawesome-solid-book-open: Practicalli recommended Clojure Learning Path](/learn-clojure/introduction/learning-path/){.md-button} 
 
-[Clojure Concepts](/docs/introduction/concepts/)
+[Clojure Concepts](/learn-clojure/introduction/concepts/)
 
 ## Navigate the book
 
@@ -32,7 +32,7 @@ Use the search box to quickly find a specific topic
 
 [:fontawesome-solid-book-open: Practicalli Clojure CLI Config - additional tools via aliases](/clojure/clojure-cli/practicalli-config/){target=_blank .md-button}
 [Clojure Aware Editors](/clojure/clojure-editors){target=_blank .md-button}
-[Practicalli YouTube channel](https://youtube.co/practicalli){target=_blank .md-button}
+[Practicalli YouTube channel](https://youtube.com/practicalli){target=_blank .md-button}
 
 
 ## Sponsor Practicalli
