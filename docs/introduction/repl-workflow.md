@@ -70,20 +70,23 @@ Expressions in rich comment blocks can represent how to use the functions that m
       ) ; End of rich comment block
     ```
 
-Rich comment blocks are very useful for rapidly iterating over different design decisions by including the same function but with different implementations.  Hide [clj-kondo linter](https://practical.li/clojure/clojure-cli/install/code-analysis.html){target=_blank} warnings for redefined vars (`def`, `defn`) when using this approach.
+Rich comment blocks are very useful for rapidly iterating over different design decisions by including the same function but with different implementations.  
 
-```clojure
-;; Rich comment block with redefined vars ignored
-#_{:clj-kondo/ignore [:redefined-var]}
-(comment
-  (defn value-added-tax []
-    ;; algorithm design - first idea)
+Hide [clj-kondo linter](https://practical.li/clojure/reference/code-analysis/){target=_blank} warnings for redefined vars (`def`, `defn`) when using this approach.
 
-  (defn value-added-tax []
-    ;; algorithm design - second idea)
+!!! EXAMPLE ""
+    ```clojure
+    ;; Rich comment block with redefined vars ignored
+    #_{:clj-kondo/ignore [:redefined-var]}
+    (comment
+      (defn value-added-tax []
+        ;; algorithm design - first idea)
 
-  ) ;; End of rich comment block
-```
+      (defn value-added-tax []
+        ;; algorithm design - second idea)
+
+      ) ;; End of rich comment block
+    ```
 
 The "Rich" in the name is an honourary mention to Rich Hickey, the author and benevolent dictator of Clojure design.
 
@@ -113,7 +116,7 @@ Pretty print shows the structure of results from function calls in a human-frien
 Tools to view and navigate code
 
 * [:fontawesome-solid-book-open: Cider inspector](https://practical.li/spacemacs/evaluating-clojure/inspect/){target=_blank} is an effective way to navigate nested data and page through large data sets.
-* [:fontawesome-solid-book-open: Portal Inspector](https://practical.li/clojure/clojure-tools/data-inspector/portal){target=_blank} to visualise many kinds of data in many different forms.
+* [:fontawesome-solid-book-open: Portal Inspector](https://practical.li/clojure/data-inspector/portal){target=_blank} to visualise many kinds of data in many different forms.
 
 ![Portal - view and navigate Clojure data and event logs](https://raw.githubusercontent.com/practicalli/graphic-design/live/portal/portal-data-browser-example.png)
 
@@ -121,7 +124,7 @@ Tools to view and navigate code
 
 Clojure aware editors should automatically apply formatting that follows the [:globe_with_meridians: Clojure Style guide](https://github.com/bbatsov/clojure-style-guide){target=_blank}.
 
-Live linting with [clj-kondo](:fontawesome-brands-github: <https://github.com/borkdude/clj-kondo){target=_blank>} suggests common idioms and highlights a wide range of syntax errors as code is written, minimizing bugs and therefore speeding up the development process.
+Live linting with [:fontawesome-brands-github: clj-kondo](https://github.com/borkdude/clj-kondo){target=_blank} suggests common idioms and highlights a wide range of syntax errors as code is written, minimizing bugs and therefore speeding up the development process.
 
 ![Clojure code static analysis for live linting](https://raw.githubusercontent.com/practicalli/graphic-design/live/spacemacs/screenshots/spacemacs-clojure-live-linting-flycheck-errors-light.png#only-light)
 ![Clojure code static analysis for live linting](https://raw.githubusercontent.com/practicalli/graphic-design/live/spacemacs/screenshots/spacemacs-clojure-live-linting-flycheck-errors-dark.png#only-dark)
@@ -140,22 +143,23 @@ Live linting with [clj-kondo](:fontawesome-brands-github: <https://github.com/bo
 
 As data structures are identified in REPL experiments, create data specification to validate the keys and value types of that data.
 
-```clojure
-;; ---------------------------------------------------
-;; Address specifications
-(spec/def ::house-number string?)
-(spec/def ::street string?)
-(spec/def ::postal-code string?)
-(spec/def ::city string?)
-(spec/def ::country string?)
-(spec/def ::additional string?)
+!!! EXAMPLE ""
+    ```clojure
+    ;; ---------------------------------------------------
+    ;; Address specifications
+    (spec/def ::house-number string?)
+    (spec/def ::street string?)
+    (spec/def ::postal-code string?)
+    (spec/def ::city string?)
+    (spec/def ::country string?)
+    (spec/def ::additional string?)
 
-(spec/def ::address   ; Composite data specification
-  (spec/keys
-   :req-un [::street ::postal-code ::city ::country]
-   :opt-un [::house-number ::additional]))
-;; ---------------------------------------------------
-```
+    (spec/def ::address   ; Composite data specification
+      (spec/keys
+       :req-un [::street ::postal-code ::city ::country]
+       :opt-un [::house-number ::additional]))
+    ;; ---------------------------------------------------
+    ```
 
 As the public API is designed, specifications for each functions arguments are added to validate the correct data is used when calling those functions.
 

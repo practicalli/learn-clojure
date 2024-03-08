@@ -32,7 +32,7 @@ Practice writing and evaluating Clojure code using [:fontawesome-solid-book-open
 
 Take a quick look at the Syntax of Clojure.  The syntax is very small, so this will take about 15 minutes to 1 hour (dependent on your own experiences with coding).  Don't try to remember all the syntax and functions, they will come through practise.
 
-- eg. [:fontawesome-solid-book-open: Clojure in 15 minutes](clojure-in-15-minutes.md)
+- eg. [:fontawesome-solid-book-open: Clojure in 15 minutes](./clojure-in-15-minutes.md)
 
 
 ## REPL Connected Editor
@@ -62,9 +62,9 @@ Gain an appreciation that a software system should strive for a simple design is
 
 Spend an hour watching the author of the Clojure Language, [:globe_with_meridians: Rich Hickey, talk about Simple made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) or read the ([:globe_with_meridians: transcript of talk](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md)) to emerse in the foundational concepts of Clojure.
 
-Review the [:fontawesome-solid-book-open: Clojure Big Ideas](concepts/) presented by Stuart Halloway and further [:fontawesome-solid-book-open: video presentations by Rich Hickey](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button}.
+Review the [:fontawesome-solid-book-open: Clojure Big Ideas](./concepts/) presented by Stuart Halloway and further [:fontawesome-solid-book-open: video presentations by Rich Hickey](./concepts/clojure-from-the-author.md){target=_blank .mkdocs-button}.
 
-[:fontawesome-solid-book-open: Rich Hickey video lecture series](concepts/clojure-from-the-author.md){target=_blank .mkdocs-button} 
+[:fontawesome-solid-book-open: Rich Hickey video lecture series](./concepts/clojure-from-the-author.md){target=_blank .mkdocs-button} 
 
 
 ## Practice Practice Practice
