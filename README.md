@@ -9,6 +9,15 @@
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝
 ```
 
+## Book Overview
+
+A Practical introduction to software development with the Clojure programming language, using Clojure CLI and a wide range of community tools for a REPL focused workflow.
+
+The guide uses Practicalli Clojure CLI Config to provide aliases to run over 30 community tools that complement the workflow, including a REPL Reloaded workflow for a highly interactive and effective development experience.
+
+Learning Clojure syntax and how to think in a functional design is also covered with code examples and challenge that help embed these concepts.
+
+
 ## Book status
 
 [![MegaLinter](https://github.com/practicalli/learn-clojure/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/learn-clojure/actions/workflows/megalinter.yaml)[![Publish Book](https://github.com/practicalli/learn-clojure/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/learn-clojure/actions/workflows/publish-book.yaml)
@@ -49,6 +58,11 @@ By submitting content ideas and corrections you are agreeing they can be used in
 All sponsorship funds are used to support the continued development of [Practicalli series of books and videos](https://practical.li/), although most work is done at personal cost and time.
 
 Thanks to [Cognitect](https://www.cognitect.com/), [Nubank](https://nubank.com.br/) and a wide range of other [sponsors](https://github.com/sponsors/practicalli-johnny#sponsors) for your continued support
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=practicalli/learn-clojure&type=Date)](https://star-history.com/#practicalli/learn-clojure&Date)
 
 
 ## GitHub Actions
