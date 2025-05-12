@@ -21,7 +21,8 @@
 - intro: learning paths page describing aspects of journey into clojure
 
 ### Changed
-- ci: spell lychee & repository trufflehog linters warn only (false positives) 
+- ci: spell lychee & repository trufflehog linters warn only (false positives)
 - intro: refactor learning path order and enhance content
 - dev: standardise github workflow and mkdocs configuration
 - dev: lychee excludes an errors as warnings
+- dev: scheduled stale issue & pr check (monthly)
