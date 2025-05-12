@@ -2,542 +2,542 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://practical.li/learn-clojure/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/adoption/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/namespace-design/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/celebrity-name-smash/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clacks-messages/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-london-website/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-bluma-css/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-content-namespace/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-more-sections/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-navigation/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-welcome-message/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/add-welcome-section/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/app-state-section/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/create-project/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/deploy-build/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/github-pages-deploy/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/hiccup-for-html/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/live-reloading/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/mount-lifecycle-management/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/organising-the-code/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/responsive-design/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/run-the-project/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/additional-projects/clojurebridge-website/interacting/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/assets/images/social/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/clojure-design/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/clojure-design/idioms/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/clojure-design/naming/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/clojure-repl/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/advent-of-code/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/koans/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/4ever-clojure/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/code-kata/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/code-kata/recent-song-list/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/code-kata/salary-slip-generator/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/code-kata/palindrome/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/code-kata/palindrome/simple-palindrome-test/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/codewars/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/hamming/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/nucleotide-count/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/rna-transcription/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/space-age/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/bob/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/bob/bob-regular-expression-approach/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-challenges/exercism/bob/bob-string-approach/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-kata/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-kata/recent-song-list/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-kata/salary-slip-generator/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/code-kata/tripple-lock/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/colours-and-shapes/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/date-time/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/hello-world/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/maths/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/name-association/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/first-steps/projects/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/games/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/games/tictactoe-cli/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/games/tictactoe-cli/create-project/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/clojure-community/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/clojure-in-15-minutes/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/contributing/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/first-taste-of-clojure/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/five-steps-to-clojure/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/learning-path-wip/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/learning-path/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/repl-workflow/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/study-guide-schedule/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/who-uses-clojure/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/writing-tips/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/all-bytecode-in-the-end/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/clojure-from-the-author/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/design/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/features/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/functional-reactive-programming/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/misc/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/naming-local/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/naming-things/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/purpose/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/rationale/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/introduction/concepts/what-is-functional-programming/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/kata/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/puzzles/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/puzzles/random-seat-assignment/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/generate-web-page/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/random-clojure-function/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/split-the-bill/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/tripple-lock/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/championships/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/data-transformation/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/data-transformation/most-common-word/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/encode-decode/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/encode-decode/caesar-cipher-rot13/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/encode-decode/clacks/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/encode-decode/convert-boolean-values/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/encode-decode/rna-dna/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/mutating-state/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/small-projects/mutating-state/mutants-assemble/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/arity/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/example-hitchhikers-guide/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/first-class-functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/function-composition/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/functors/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/higher-order-functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/homoiconicity/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/immutability/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/immutable-collections/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/immutable-local-bindings/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/immutable-values/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/impure-functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/iterate-over-values/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/lazy-evaluation/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/list-comprehension/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/managing-state-changes/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/map-with-partial/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/partial-functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/pattern-matching/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/persistent-data-structures/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/polymorphism/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/pure-functions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/recursion-polymorphism/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/recursion/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/sequence-abstractions/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/sequences/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/side-effects/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/tail-recursion/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/threading-macros/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
     <url>
          <loc>https://practical.li/learn-clojure/thinking-functionally/transducers/</loc>
-         <lastmod>2025-04-14</lastmod>
+         <lastmod>2025-05-12</lastmod>
     </url>
 </urlset>
