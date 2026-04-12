@@ -4,6 +4,7 @@
 
 ### Updated
 
+- dev: practicalli make tasks including zensical
 - dev: update GitHub actions with `make dependencies-update`
 
 | :file                                          | :name                                       | :current | :latest |
