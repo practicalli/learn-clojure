@@ -46,7 +46,7 @@ Prefer higher-order functions like `map` to `loop/recur`.
 ## Appropriate Function use
 
 - let def
-- if when cond condp 
+- if when cond condp
 - Nil Punning (a pun that null is not a value, when it is??) seq empty?
 
 
@@ -60,7 +60,7 @@ Prefer higher-order functions like `map` to `loop/recur`.
 
 !!! WARNING "Avoid vars inside functions"
     ```clojure
-    (defn iterative-function 
+    (defn iterative-function
       "Avoid breaking the scope of data in a function by using def"
       [args]
         (def x 5)  ; Avoid using a var as it breaks the scope of the function
@@ -86,7 +86,7 @@ Don't shadow `clojure.core` names with local bindings or custom function definit
   ...)
 ```
 
-RELATED: avoid renaming functions required by name via the `ns` definition. 
+RELATED: avoid renaming functions required by name via the `ns` definition.
 
 
 ### Alter Var Binding [[alter-var]]
