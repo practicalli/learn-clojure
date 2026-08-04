@@ -76,20 +76,19 @@ Prefer higher-order functions like `map` to `loop/recur`.
     Use a debug tool rather than break the scope of Clojure with a def, e.g. Cider Debug or Flowstorm-debugger.
 
 
-### Shadowing `clojure.core` Names [[dont-shadow-clojure-core]]
+### Avoid Shadowing Names
 
-Don't shadow `clojure.core` names with local bindings or custom function definitions (confusion, a change of well held expectations).
+If names for local bindings or function definitions are the same as those from common libraries, confusion and errors is greatly increased.  It also makes a code refactor unnecessarily complicated.
 
-```clojure
-;; bad - clojure.core/map must be fully qualified inside the function
-(defn inc [map]
-  ...)
-```
+Shadowing  `clojure.core` names (or other popular libraries) exaserbated the situation.
 
-RELATED: avoid renaming functions required by name via the `ns` definition.
+Libraries that are highly generic use names. Code for applications or services should be specific and use domain language for greater clarity.
 
 
-### Alter Var Binding [[alter-var]]
+> RELATED: avoid renaming functions required by name via the `ns` definition.
+
+
+### Alter Var Binding
 
 Use `alter-var-root` instead of `def` to change the value of a var.
 
@@ -719,3 +718,96 @@ Be careful regarding what exactly you attach metadata to.
 (meta #'a) ;=> nil
 ```
 
+
+
+
+## Naming
+
+Using meaningful names in kebab-case for all symbols
+
+- namespaces / names / vars should be concise but not terse
+- fully qualified keywords
+- naming is hard to do well... k m v
+
+
+### Namespaces
+Use meaningful alias names in require expressions.
+
+Only use refer if the purpose of the current namespace is central the specific functions being referred, e.g. clojure.test
+
+Avoid the use function as it it inters all funcions and can lead to many conflics in function names and other vars.
+
+
+## Documentation
+
+Function definitions and shared values should include doc-strings that describe the purpose of the function.  Arguments and return values should be included in the doc-string
+
+
+## clj-kondo - code quality and idiom check
+
+clj-kondo provides live linting and idiom checker within the editor and is also run as a process during continuous integration checks.
+
+Code Analysis clj-kondo GitHub action runs a limited set of lint rules for clj-kondo
+
+- Idiom section of a community style guide
+
+clj-format -  deprecated - check code format with rules (quite restrictive, not universally used) - currently used on master, removed in spike/refactor-thinking
+
+kibit - deprecated - the classic Clojure idiom checker - currently used on master, removed in spike/refactor-thinking
+
+
+## Meta data
+
+- var scope if required (def, defn) - `^:private`
+- test selectors - `^:integration` , `^:datastore`
+- depreciated namespaces and functions - `^:deprecated`
+
+
+## Macros
+
+First rule of macro club... don't write your own macros 😂
+
+Defining your own macros is the path of language design, which has different concerns to application and service design.
+
+If there is no way to satisfy a requirement with function definitions and other vars, then define a macro wisely and ensure the macro has enough worth to merit inclusion into multiple projects.
+
+
+
+
+## Coding Style
+
+Optimise for readability and consistency
+
+- Long functions / long lines
+- Aligning forms
+- Avoid the use of declare - refactor code to be less inter-dependent
+- Whitespace commit white space /formatting changes separately from application code changes where possible
+- `;;` for line comments
+
+> NOTE: Cursive setting: Editor > General > Smart Keys > Clojure > Use ;; for line comments
+
+
+## Refactor as you go
+
+- Review code after tests work for opportunity to refactor
+- minimise local name bindings
+- consider how understandable code for humans
+- ensure there is a doc-string & update if required
+
+
+## Removing redundant code
+
+Less code tends to fewer bugs and easier maintenance
+
+- check references to functions
+- check for similar functions
+- mark code as deprecated if its use is not clear (using a comment or ^deprecated)
+- Carve tool to highlight unused vars - example using practicalli/clojure-deps-edn config -
+
+### Carve
+
+Carve will report and remove vars (defn, def, requires) that are in the code but not used.
+
+```shell
+clojure -M:project/unused --opts '{:paths ["src" "test"]} :report {:format :text}}' > carve-report.txt
+```
