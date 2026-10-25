@@ -4,6 +4,7 @@
 
 ### Updated
 
+- docs(intro): ✏️ update navigation keys information
 - dev: practicalli make tasks including zensical
 - dev: update GitHub actions with `make dependencies-update`
 
